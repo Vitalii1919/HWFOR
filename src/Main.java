@@ -26,16 +26,16 @@ public class Main {
         }
         int cash = 29000;
         int total = 0;
-        for (int i = 0; i < 12; i++) {
+        for (int i = 1; i < 12; i++) {
             total = total + cash;
-            System.out.println("Месяц" + i + "сумма накоплений равна" + total + "рублей");
+            System.out.println( " Месяц "  + i +  " сумма накоплений равна " + total + " рублей");
         }
         int cash1 = 29000;
         int total1 = 0;
-        for (int i = 0; i < 12; i++) {
-            total1 = total1 + total1 / 100;
+        for (int i = 1; i < 12; i++) {
             total1 = total1 + cash1;
-            System.out.println("Месяц" + i + "Итого" + total1);
+            total1 = total1 + total1 / 100;
+            System.out.println("Месяц" + i + "Итого" + total1 + "рублей");
         }
         System.out.println(total1);
         for (int o = 1; o <= 10; o++) {
